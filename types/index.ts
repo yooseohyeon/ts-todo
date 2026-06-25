@@ -7,3 +7,7 @@ export type Todo = {
 export type AddTodoInput = {
   title: string;
 };
+
+export type TodoItemProps = {
+  todo: Todo;
+};
